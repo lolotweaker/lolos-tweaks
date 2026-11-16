@@ -8,7 +8,7 @@ A reversible Windows gaming optimizer with a benchmark, a game session recorder 
 Open PowerShell and paste (replace the link with the raw link of lolos-tweaks.ps1 in this repo):
 
 ```powershell
-irm https://raw.githubusercontent.com/YOURNAME/YOURREPO/main/lolos-tweaks.ps1 -OutFile $env:TEMP\lolos-tweaks.ps1; powershell -STA -ExecutionPolicy Bypass -File $env:TEMP\lolos-tweaks.ps1
+irm https://raw.githubusercontent.com/lolotweaker/lolos-tweaks/main/lolos-tweaks.ps1 -OutFile $env:TEMP\lolos-tweaks.ps1; powershell -STA -ExecutionPolicy Bypass -File $env:TEMP\lolos-tweaks.ps1
 ```
 
 It asks for administrator permission, then asks whether you are on a laptop or a desktop PC.
